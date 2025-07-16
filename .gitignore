@@ -79,11 +79,12 @@ logs/
 temp/
 tmp/
 
-# Text and script files (except requirements.txt)  
+# Text and script files (except requirements.txt and README.md)  
 *.md
 *.sh
 *.txt
 !requirements.txt
+!README.md
 
 # Claude/AI references
 *claude*
