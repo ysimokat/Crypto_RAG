@@ -1,0 +1,112 @@
+# Environment files
+.env
+.env.local
+.env.production
+.env.staging
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files and large data
+*.bin
+*.safetensors
+*.onnx
+*.h5
+*.pkl
+*.joblib
+data/faiss_index*
+data/*.index
+data/*_metadata.pkl
+
+# Hugging Face cache
+.cache/
+transformers_cache/
+
+# Results and logs
+results/
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Text and script files (except requirements.txt)  
+*.md
+*.sh
+*.txt
+!requirements.txt
+
+# Claude/AI references
+*claude*
+*anthropic*
+CLAUDE.md
+
+# Large model downloads
+models/
+checkpoints/
+
+# Streamlit
+.streamlit/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
